@@ -1,0 +1,16 @@
+.factoids{
+    display: flex;
+    justify-content: space-between;
+}
+ .factoid__item:not(:last-child){
+    margin-right: 8px;
+}
+.factoid__heading{
+    color: var(--color-text-accent);
+    font-size: 24px;
+    font-style: bold;
+    margin-bottom: 8px;
+}
+// .factoid__caption{
+
+// }

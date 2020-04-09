@@ -1,0 +1,11 @@
+.partners {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0;
+    width: 90%;
+    border-bottom: 2px solid var(--color-border);
+    margin: auto;
+    margin-bottom: 32px;
+    
+}
+

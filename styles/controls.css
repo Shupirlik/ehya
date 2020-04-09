@@ -1,3 +1,33 @@
+.button {
+  box-sizing:border-box;
+  border:none;
+  border-radius: 8px;
+  white-space : nowrap;
+}
+
+.button_view_primary {
+  background-color: var(--color-control-bg-primary);
+  color:var(--color-control-primary-text);
+  font-size: 14px;
+  font-weight: bold;
+  // margin-left: 50%;
+  // transform: translatex(-50%);
+}
+.button_view_secondary {
+  background-color: var(--color-control-bg-secondary);
+  color:var(--color-control-secondary-text);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button_size_l {
+  height:56px;
+  padding:12px 40px;
+}
+
+
+
+
 .burger {
     position: relative;
     width: 20px; 
@@ -67,5 +97,15 @@
   .burger:hover .burger__middle-line::before {
           transform: rotate(-90deg);
         }
-  
-  
+  .link {
+    color:var(--color-text-link);
+    text-decoration: none;
+  }
+  .link_icon-right {
+    display: flex;
+    align-items: center;
+        }
+  .link_icon-right svg {
+    margin-left: 8px;
+    color:var(--color-text-link);
+        }     
