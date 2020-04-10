@@ -1,7 +1,7 @@
 .caption {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin: auto;
     width: 75%;
     font-size: 14px;
@@ -11,7 +11,8 @@
     
 }
 
-.caption svg {
+.caption__icon {
+    margin-top: 1em;
     margin-right: 16px;
     overflow: visible;
     color: var(--color-text-secondary);
